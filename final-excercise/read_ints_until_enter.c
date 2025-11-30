@@ -103,7 +103,7 @@ int main(void) {
 
     printf("Input integers. Press Enter alone to end input immediately.\n");
 
-    size_t count = read_ints_until_enter(&numbers);
+    size_t count = read_ints_until_enter(&numbers); // read integers
 
     printf("\nStored %zu integer(s):\n", count);
     for (size_t i = 0; i < count; i++) {
